@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "udNNJlYxCvTlD7SgO4T6r4V1BKMn+w8yVSsPaP5xRo0=",
+  "Source": "soothlyAPI",
+  "BasePath": "_content/soothlyAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
