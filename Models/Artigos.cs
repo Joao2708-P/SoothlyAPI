@@ -4,6 +4,7 @@ namespace soothlyAPI.Models
     {
         public int id{get; set;}
         public int idTipo{get; set;}
+        public string? imagens{get; set;}
         public string? corpo{get; set;}
     }
 }

@@ -46,7 +46,7 @@ namespace soothlyAPI.Controllers
               _context.Artigos.Add(model);
               if(await _context.SaveChangesAsync() == 1)
               {
-                  return Created($"/api/Artigos/{model.corpo}", model);
+                  return Created($"/api/Artigos/{model.imagens}", model);
               }
           }
           catch 
@@ -80,6 +80,7 @@ namespace soothlyAPI.Controllers
                  return BadRequest();
              }
              result.corpo = dadosArtigos.corpo;
+             result.imagens = dadosArtigos.imagens;
              await _context.SaveChangesAsync();
               return Created($"/api/artigos/{dadosArtigos.id}", dadosArtigos);
           }
