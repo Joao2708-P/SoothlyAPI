@@ -79,6 +79,7 @@ namespace soothlyAPI.Controllers
              {
                  return BadRequest();
              }
+             result.titulo = dadosArtigos.titulo;
              result.corpo = dadosArtigos.corpo;
              result.imagens = dadosArtigos.imagens;
              await _context.SaveChangesAsync();
